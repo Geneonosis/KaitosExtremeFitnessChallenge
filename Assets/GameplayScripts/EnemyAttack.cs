@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyAttack : MonoBehaviour
 {
+    public Animator anim;
     public float timeBetAttacks = .5f;
     public int attackDamage = 10;
     GameObject player;
