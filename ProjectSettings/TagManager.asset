@@ -9,6 +9,7 @@ TagManager:
   - FullBody
   - Weapon
   - Avatar
+  - Soccer
   layers:
   - Default
   - TransparentFX
