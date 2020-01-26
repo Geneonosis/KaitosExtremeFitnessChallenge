@@ -282,6 +282,7 @@ GameObject:
   - component: {fileID: 420585664}
   - component: {fileID: 420585666}
   - component: {fileID: 420585665}
+  - component: {fileID: 420585667}
   m_Layer: 5
   m_Name: Avatar
   m_TagString: Untagged
@@ -345,6 +346,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 420585663}
   m_CullTransparentMesh: 0
+--- !u!111 &420585667
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420585663}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 933d887b5ea9e1044bb8594c3742d3c3, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 933d887b5ea9e1044bb8594c3742d3c3, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &450296081
 GameObject:
   m_ObjectHideFlags: 0
@@ -855,6 +872,7 @@ GameObject:
   - component: {fileID: 797443118}
   - component: {fileID: 797443120}
   - component: {fileID: 797443119}
+  - component: {fileID: 797443121}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -1001,6 +1019,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 797443117}
   m_CullTransparentMesh: 0
+--- !u!111 &797443121
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797443117}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 933d887b5ea9e1044bb8594c3742d3c3, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &853684722
 GameObject:
   m_ObjectHideFlags: 0
