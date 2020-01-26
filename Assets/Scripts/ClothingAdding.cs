@@ -7,7 +7,7 @@ public class ClothingAdding : MonoBehaviour
 {
     public SpriteRenderer part;
     public Sprite[] options;
-    public Image thisImage;
+    //public Image thisImage;
     //public Sprite[] clothes;
     //public Sprite[] bodycolor;
 
