@@ -38,5 +38,13 @@ public class RegisterButton : MonoBehaviour
         {
             SceneManager.LoadScene(4);
         }
+        else if(password == "")
+        {
+            
+        }
+        else
+        {
+            SceneManager.LoadScene(2);
+        }
     }
 }
