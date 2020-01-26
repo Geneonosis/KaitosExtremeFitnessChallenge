@@ -9,8 +9,10 @@ public class RegisterButton : MonoBehaviour
 {
     public string username = "";
     private string password;
-    InputField inputU;
-    InputField inputP;
+    public Text inputU;
+    public InputField inputP;
+    //Text text = "nope";
+    
 
     public void registerButtonClick()
     {
@@ -18,6 +20,9 @@ public class RegisterButton : MonoBehaviour
         if (username != "")
         {
             username = inputU.name;
+            password = inputP.name;
+            print(username);
+            print(password);
         }
         SceneManager.LoadScene(2);//2 = register
     }
@@ -28,7 +33,7 @@ public class RegisterButton : MonoBehaviour
 
     private void OnGUI()
     {
-        password = GUI.PasswordField(Root (10, 10, 200, 20), inputP.text, "*"[0], 25);
+       // password = GUI.PasswordField(Rect (10, 10, 200, 20), inputP.text, "*"[0], 25);
         if(password == "mypass")
         {
             SceneManager.LoadScene(4);
