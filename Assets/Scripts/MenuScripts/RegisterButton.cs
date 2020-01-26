@@ -24,7 +24,7 @@ public class RegisterButton : MonoBehaviour
             print(username);
             print(password);
         }
-        SceneManager.LoadScene(1);//2 = register
+        SceneManager.LoadScene(2);//2 = register
     }
     public void logInButtonClick()
     {
