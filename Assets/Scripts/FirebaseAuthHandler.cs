@@ -13,6 +13,7 @@ public static class FirebaseAuthHandler
         RestClient.Post($"https://identitytoolkit.googleapis.com/v1/accounts:signInWithCustomToken?key={apiKey}", payload).Then(response =>
         {
             Debug.Log(response.Text);
+            //response.Data.
         });
     }
 }
