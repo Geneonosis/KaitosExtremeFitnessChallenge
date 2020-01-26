@@ -17,4 +17,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Home.unity
     guid: 2f6387e2f594c3942a74d0fd7aaae119
+  - enabled: 1
+    path: Assets/Scenes/Play.unity
+    guid: 453c268f89adeec4095e88567c87e824
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: 13f0d60ce764b5d41b2ac65f897a6a74
+  - enabled: 1
+    path: Assets/Scenes/Stats.unity
+    guid: ac038a5e4a822a24e8f18b60759a3995
+  - enabled: 1
+    path: Assets/Scenes/CharacterBuild.unity
+    guid: 42eb7cd83878e0745981c4b42d65f3a1
   m_configObjects: {}
