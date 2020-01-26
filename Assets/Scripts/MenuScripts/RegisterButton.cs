@@ -30,6 +30,16 @@ public class RegisterButton : MonoBehaviour
     {
         SceneManager.LoadScene(3);//3 = main menu
     }
+
+    public void backToLogInButtonClick()
+    {
+        SceneManager.LoadScene(1);//3 = main menu
+    }
+
+    public void leaderBButtonClick()
+    {
+        SceneManager.LoadScene(6);//3 = main menu
+    }
     /*
     private void OnGUI()
     {

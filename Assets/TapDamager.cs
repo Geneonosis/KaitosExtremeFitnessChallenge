@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class TapDamager : MonoBehaviour
 {
-    int damage;
+    public int damage;
     [SerializeField] GameObject boss = null;
     [SerializeField] AnimationClip damageBossAnimation = null;
     public void tapDamage()
     {
-        boss.GetComponent<Animation>().clip = damageBossAnimation;
-        boss.GetComponent<Animation>().Play();
+        //boss.GetComponent<Animation>().clip = boss.GetComponent<Animation>().Play()
         Debug.Log("apply damage");
+        boss.GetComponent<EnemyHealth>().TakeDamage(damage);
     }
 }
