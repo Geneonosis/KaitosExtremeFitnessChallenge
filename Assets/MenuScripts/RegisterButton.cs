@@ -30,7 +30,7 @@ public class RegisterButton : MonoBehaviour
     {
         SceneManager.LoadScene(3);//3 = main menu
     }
-
+    /*
     private void OnGUI()
     {
        // password = GUI.PasswordField(Rect (10, 10, 200, 20), inputP.text, "*"[0], 25);
@@ -46,5 +46,6 @@ public class RegisterButton : MonoBehaviour
         {
             SceneManager.LoadScene(2);
         }
-    }
+    }*/
+
 }
