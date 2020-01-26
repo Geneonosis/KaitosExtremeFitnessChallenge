@@ -309,6 +309,7 @@ GameObject:
   - component: {fileID: 573460346}
   - component: {fileID: 573460348}
   - component: {fileID: 573460347}
+  - component: {fileID: 573460349}
   m_Layer: 5
   m_Name: Boss
   m_TagString: Untagged
@@ -372,6 +373,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 573460345}
   m_CullTransparentMesh: 0
+--- !u!111 &573460349
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573460345}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: ecb23f60799ac714d8a23354dba1b9f8, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 933d887b5ea9e1044bb8594c3742d3c3, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &621766207
 GameObject:
   m_ObjectHideFlags: 0
@@ -993,6 +1010,7 @@ GameObject:
   - component: {fileID: 1975991057}
   - component: {fileID: 1975991056}
   - component: {fileID: 1975991059}
+  - component: {fileID: 1975991060}
   m_Layer: 5
   m_Name: ALWAYS BOTTOM MOST ITEM
   m_TagString: Untagged
@@ -1121,5 +1139,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: add4dd1fdb3947044ba89bb29dca710e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boss: {fileID: 0}
+  boss: {fileID: 573460345}
   damageBossAnimation: {fileID: 0}
+--- !u!95 &1975991060
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975991054}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: eff436e29aeb0f74da5a406d8372b946, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

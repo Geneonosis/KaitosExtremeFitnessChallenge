@@ -23,14 +23,13 @@ public class TransformAvatar : MonoBehaviour
     public void Transform()
     {
         //avatar.GetComponent<Animation>().enabled = false;
-        button.transform.position = new Vector2(0, 635);
-       
+        button.transform.position = new Vector2(0, 1.8f);
+        //Debug.Log(button.transform.position);
     }
     public void TransformBack()
     {
-        button.transform.position = new Vector2(0, -235);
+        button.transform.position = new Vector2(0, -0.5f);
         //avatar.GetComponent<Animation>().enabled = true;
-
     }
 
 }
