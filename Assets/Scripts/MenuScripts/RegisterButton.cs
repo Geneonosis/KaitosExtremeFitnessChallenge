@@ -24,11 +24,15 @@ public class RegisterButton : MonoBehaviour
             print(username);
             print(password);
         }
-        SceneManager.LoadScene(2);//2 = register
+        SceneManager.LoadScene(1);//2 = register
     }
     public void logInButtonClick()
     {
         SceneManager.LoadScene(3);//3 = main menu
+    }
+    public void signupButtonClick()
+    {
+        SceneManager.LoadScene(2);//3 = main menu
     }
     /*
     private void OnGUI()
