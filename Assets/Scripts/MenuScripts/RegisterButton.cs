@@ -35,6 +35,10 @@ public class RegisterButton : MonoBehaviour
     {
         SceneManager.LoadScene(1);//3 = main menu
     }
+    public void playScreeenButtonClick()
+    {
+        SceneManager.LoadScene(8);//3 = main menu
+    }
 
     public void leaderBButtonClick()
     {

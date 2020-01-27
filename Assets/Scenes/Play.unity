@@ -1110,6 +1110,8 @@ GameObject:
   - component: {fileID: 1575485737}
   - component: {fileID: 1575485736}
   - component: {fileID: 1575485735}
+  - component: {fileID: 1575485740}
+  - component: {fileID: 1575485739}
   m_Layer: 5
   m_Name: BackButton
   m_TagString: Untagged
@@ -1190,8 +1192,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1575485735}
-        m_MethodName: ChangeScene
+      - m_Target: {fileID: 1575485739}
+        m_MethodName: logInButtonClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1240,6 +1242,33 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1575485733}
   m_CullTransparentMesh: 0
+--- !u!114 &1575485739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575485733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b4b59c9a3338f7448c651d47c2f28dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  username: 
+  inputU: {fileID: 0}
+  inputP: {fileID: 0}
+--- !u!114 &1575485740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575485733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebd82d164f00aa847ae9125bcd463170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1618977660
 GameObject:
   m_ObjectHideFlags: 0
